@@ -5,7 +5,7 @@ import numpy as np
 from common.optimizer import SGD
 from dataset import spiral
 import matplotlib.pyplot as plt
-from two_layer_net import TwoLayerNet
+from ch01.two_layer_net import TwoLayerNet
 
 
 # 하이퍼파라미터 설정
@@ -71,7 +71,7 @@ Z = predict_cls.reshape(xx.shape)
 plt.contourf(xx, yy, Z)
 plt.axis('off')
 
-# 데이터점 플롯
+# 데이터점 플롯 
 x, t = spiral.load_data()
 N = 100
 CLS_NUM = 3
