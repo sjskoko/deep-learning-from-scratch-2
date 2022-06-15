@@ -4,7 +4,7 @@ sys.path.append('..')  # 부모 디렉터리의 파일을 가져올 수 있도�
 from common.optimizer import SGD
 from common.trainer import Trainer
 from dataset import spiral
-from two_layer_net import TwoLayerNet
+from ch01.two_layer_net import TwoLayerNet
 
 
 # 하이퍼파라미터 설정
